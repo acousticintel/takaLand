@@ -1,0 +1,31 @@
+.partner__cont {
+    @apply container mx-auto relative text-center caret-transparent;
+  }
+  
+  .partner__cont h4 {
+    @apply font-semibold text-4xl mt-6;
+  }
+  
+  .partner__cont .carousel {
+    @apply w-full flex justify-center items-center mb-10 overflow-hidden;
+  }
+  
+  .partner__cont .animate-blob{
+    @apply absolute rounded-full mix-blend-multiply filter opacity-70 blur-xl;
+  }
+  
+  .partner__logo {
+    @apply mt-10 mb-32 flex flex-col;
+  }
+  
+  .partner__logo > .logo{
+    @apply relative h-52 mb-16 opacity-70;
+  }
+  
+  .partner__logo > span{
+    @apply font-light text-xl capitalize text-teal-700;
+  }
+  
+  .test{
+    @apply rounded-full w-6 h-6 bg-purple-400;
+  }

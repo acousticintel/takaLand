@@ -1,0 +1,40 @@
+.process__sec{
+    @apply container mx-auto px-6 pb-20 caret-transparent bg-white;
+}
+
+.process__sec > *{
+    @apply my-3;
+}
+
+.process__sec > h5{
+    @apply text-sm font-bold text-teal-600;
+}
+
+.process__sec > h2{
+    @apply text-4xl font-bold text-gray-900;
+}
+
+.process__sec > h6{
+    @apply text-sm font-bold text-gray-500 -mt-3;
+}
+
+.process__sec > .processes{
+    @apply grid gap-8 grid-cols-1 sm:grid-cols-3;
+}
+
+.process__sec > .processes > .process > *{
+    @apply mt-3;
+}
+
+.process__sec > .processes > .process .icon{
+    @apply bg-teal-200 bg-opacity-70 rounded-full w-16 h-16 
+        grid place-content-center text-emerald-600;
+}
+
+.process__sec > .processes > .process h6{
+    @apply font-semibold text-gray-800;
+}
+
+.process__sec > .processes > .process p{
+    @apply text-sm text-gray-400;
+}
