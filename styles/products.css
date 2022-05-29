@@ -19,7 +19,7 @@
 }
 
 .products__sec > .products{
-    @apply flex flex-col md:flex-row gap-6 my-10;
+    @apply flex flex-col px-0 sm:px-16 lg:px-0 lg:flex-row gap-6 my-10;
 }
 
 .products__sec > .products > .product{

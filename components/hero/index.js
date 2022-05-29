@@ -6,10 +6,10 @@ export default function Hero() {
   return (
     <div className="hero min-h-[calc(100vh_-_4rem)] bg-base-100">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="relative h-full w-full max-w-sm">
-          <Image src="/assets/recycle.webp" className="object-contain" alt="" />
+        <div className="relative h-64 lg:h-96 w-full max-w-sm">
+          <Image src="/assets/recycle.webp" className="object-contain" layout="fill" alt="" />
         </div>
-        <div className="text-center md:text-left">
+        <div className="text-center lg:text-left">
           <h1 className="text-4xl font-bold text-teal-700">
             Documenting Africas climate action.
           </h1>
