@@ -11,27 +11,27 @@ export default function Products() {
       title: "Events",
       tag: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at cursus nulla.",
       points: [
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
+        "Incentivize event attendees to recycle their waste",
+        "Offering cashbacks or discounts on future purchases",
+        "Monitor their waste profile ",
       ],
     },
     {
-      title: "Corps",
+      title: "Corporates",
       tag: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at cursus nulla.",
       points: [
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
+        "Measure their sustainability effort",
+        "Document their sustainability impact",
+        "Report on their sustainability ",
       ],
     },
     {
       title: "Home",
       tag: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at cursus nulla.",
       points: [
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
+        "Incentivize the public to recycle",
+        "Divert their waste from landfills ",
+        "Create a loyalty program for future sales",
       ],
     },
   ];
@@ -40,14 +40,14 @@ export default function Products() {
       <h5>Services</h5>
       <h2>Products</h2>
       <h6>
-        Services Tagline Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        In fringilla.
+        Services Tagline Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. In fringilla.
       </h6>
       <div className="products">
         {prods.map((pr, i) => (
           <div className="product" key={i}>
             <h3>{pr.title}</h3>
-            <p>{pr.tag}</p>
+            <p>We provide companies a platform to: </p>
             <ul>
               {pr.points.map((p, i) => (
                 <li key={i}>

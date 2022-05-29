@@ -1,9 +1,10 @@
 /* Font import */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "./index.css";
 @import "./process.css";
 @import "./products.css";
 @import "./partners.css";
+@import "./contact.css";
 
 @tailwind base;
 @tailwind components;
@@ -17,8 +18,8 @@ html {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
-body{
-  caret-color: transparent; 
+body {
+  caret-color: transparent;
   @apply font-body leading-normal tracking-normal text-teal-900 custom-scroll bg-base-100;
 }
 
@@ -38,15 +39,15 @@ body{
   bg-opacity-70 transition-colors duration-500;
 }
 
-.page-content{
+.page-content {
   @apply text-teal-900;
 }
 
-section{
-    @apply py-10
+section {
+  @apply py-10;
 }
 
-.abs-center{
+.abs-center {
   @apply absolute top-1/2 left-1/2 
   transform -translate-x-1/2 -translate-y-1/2;
 }

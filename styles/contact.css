@@ -1,0 +1,27 @@
+.contact__sec {
+  @apply container mx-auto px-6 caret-current;
+}
+
+.contact__sec h4 {
+  @apply font-semibold text-4xl my-6 text-center;
+}
+
+.contact__sec > .cont {
+  @apply container mx-auto overflow-hidden py-6;
+}
+
+.contact__sec form {
+  @apply px-6;
+}
+
+.contact__sec form textarea {
+  @apply h-32 input input-bordered input-primary w-full bg-gray-400 focus:bg-white bg-opacity-10;
+}
+
+.contact__sec form input {
+  @apply input input-bordered input-primary w-full bg-gray-400 focus:bg-white bg-opacity-10;
+}
+
+.contact__sec form button {
+  @apply btn btn-primary w-full max-w-md rounded-full my-5 mx-auto;
+}

@@ -1,5 +1,5 @@
+import Contact from '../components/contact';
 import Hero from '../components/hero';
-import Partners from '../components/partners';
 import Process from '../components/process';
 import Products from '../components/products';
 
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <Products/>
       <Process/>
-      <Partners/>
+      <Contact/>
     </div>
   )
 }
