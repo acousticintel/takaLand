@@ -1,84 +1,84 @@
-.products__sec{
-    @apply container mx-auto px-6 caret-transparent;
+.products__sec {
+  @apply container mx-auto px-6 caret-transparent;
 }
 
-.products__sec > *{
-    @apply my-3;
+.products__sec > * {
+  @apply my-3;
 }
 
-.products__sec > h5{
-    @apply text-sm font-bold text-teal-600;
+.products__sec > h5 {
+  @apply text-sm font-bold text-teal-600;
 }
 
-.products__sec > h2{
-    @apply text-4xl font-bold text-gray-900;
+.products__sec > h2 {
+  @apply text-4xl font-bold text-gray-900;
 }
 
-.products__sec > h6{
-    @apply text-sm font-bold text-gray-500 -mt-3;
+.products__sec > h6 {
+  @apply text-sm font-bold text-gray-500 -mt-3;
 }
 
-.products__sec > .products{
-    @apply flex flex-col px-0 sm:px-16 lg:px-0 lg:flex-row gap-6 my-10;
+.products__sec > .products {
+  @apply flex flex-col px-0 sm:px-16 lg:px-0 lg:flex-row gap-6 my-10;
 }
 
-.products__sec > .products > .product{
-    @apply bg-white p-6 rounded-3xl flex-1
+.products__sec > .products > .product {
+  @apply bg-white p-6 rounded-3xl flex flex-col flex-1
         transition-all duration-500 ease-in-out;
 }
 
-.products__sec > .products > .product > *{
-    @apply transition-all duration-300 ease-in;
+.products__sec > .products > .product > * {
+  @apply transition-all duration-300 ease-in;
 }
 
-.products__sec > .products > .product:hover{
-    @apply bg-teal-600 scale-105 md:scale-110;
+.products__sec > .products > .product:hover {
+  @apply bg-teal-600 scale-105 md:scale-110;
 }
 
-.products__sec > .products > .product h3{
-    @apply text-3xl font-bold;
+.products__sec > .products > .product h3 {
+  @apply text-3xl font-bold;
 }
 
-.products__sec > .products > .product:hover h3{
-    @apply text-white;
+.products__sec > .products > .product:hover h3 {
+  @apply text-white;
 }
 
-.products__sec > .products > .product p{
-    @apply mt-3 text-xs text-gray-400;
+.products__sec > .products > .product p {
+  @apply mt-3 text-xs text-gray-400;
 }
 
-.products__sec > .products > .product:hover p{
-    @apply text-gray-200;
+.products__sec > .products > .product:hover p {
+  @apply text-gray-200;
 }
 
-.products__sec > .products > .product ul{
-    @apply px-0 lg:px-3 max-w-fit mx-auto md:mx-0;
+.products__sec > .products > .product ul {
+  @apply px-0 lg:px-3 max-w-fit mx-auto md:mx-0 flex-1;
 }
 
-.products__sec > .products > .product:hover ul{
-    @apply text-gray-50;
+.products__sec > .products > .product:hover ul {
+  @apply text-gray-50;
 }
 
-.products__sec > .products > .product ul li{
-    @apply flex items-center mt-4;
+.products__sec > .products > .product ul li {
+  @apply flex items-center mt-4;
 }
 
-.products__sec > .products > .product ul li > span{
-    @apply ml-3;
+.products__sec > .products > .product ul li > span {
+  @apply ml-3;
 }
 
-.products__sec > .products > .product .button__sec{
-    @apply my-6 flex justify-center;
+.products__sec > .products > .product .button__sec {
+  @apply my-6 flex justify-center;
 }
 
-.products__sec > .products > .product .button__sec button{
-    @apply btn btn-outline w-4/5;
+.products__sec > .products > .product .button__sec button {
+  @apply btn btn-outline w-4/5;
 }
 
-.products__sec > .products > .product:hover .button__sec button{
-    @apply bg-gray-200;
+.products__sec > .products > .product:hover .button__sec button {
+  @apply bg-gray-100;
 }
 
-.products__sec > .products > .product:hover .button__sec button:hover{
-    @apply text-teal-600;
+.products__sec > .products > .product:hover .button__sec button:hover {
+  @apply text-teal-600;
 }

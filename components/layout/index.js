@@ -1,15 +1,17 @@
-import Head from "next/head";
 import Image from "next/image";
+import { useEffect } from "react";
+import dynamic from "next/dynamic";
 //custom
-import Navbar from "./navbar";
-import Footer from "./footer";
+const Navbar = dynamic(() => import("./navbar"));
+const Footer = dynamic(() => import("./footer"));
+
 
 export default function Layout({ children, path }) {
+  useEffect(() => {
+    document.getElementById("loader").style.display = "none";
+  }, []);
   return (
     <>
-      <Head>
-        <title>Taka. Earn as you throw waste.</title>
-      </Head>
       <Navbar />
       <main className="page-content">{children}</main>
       <div className="relative w-full h-52">
