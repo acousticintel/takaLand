@@ -1,3 +1,5 @@
+import dynamic from "next/dynamic";
+//custom
 const Contact = dynamic(() => import("../components/contact"));
 const Hero = dynamic(() => import("../components/hero"));
 const Process = dynamic(() => import("../components/process"));
