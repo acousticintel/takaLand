@@ -25,7 +25,7 @@ const cardContVar = {
   show: {
     opacity: 1,
     transition: {
-      delay: .25,
+      delay: 0.25,
       when: "beforeChildren",
       staggerChildren: 0.25,
     },
@@ -86,10 +86,14 @@ export default function Products() {
     }
   }, [controls, inView]);
 
+  const openInNewTab = (url) => {
+    window.open(url, "_blank").focus();
+  };
+
   const prods = [
     {
       title: "Events",
-      tag: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at cursus nulla.",
+      link: "https://events.taka.earth",
       points: [
         "Incentivize event attendees to recycle their waste",
         "Offering cashbacks or discounts on future purchases",
@@ -98,7 +102,6 @@ export default function Products() {
     },
     {
       title: "Corporates",
-      tag: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at cursus nulla.",
       points: [
         "Measure their sustainability effort",
         "Document their sustainability impact",
@@ -107,7 +110,7 @@ export default function Products() {
     },
     {
       title: "Home",
-      tag: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at cursus nulla.",
+      link: "https://events.taka.earth",
       points: [
         "Incentivize the public to recycle",
         "Divert their waste from landfills ",
@@ -138,14 +141,26 @@ export default function Products() {
             <motion.ul variants={contVar}>
               {pr.points.map((p, i) => (
                 <motion.li variants={slideVar} key={i}>
-                  <FaCheckCircle size=".9em" className="min-w-[15px]"/> <span>{p}</span>
+                  <FaCheckCircle size=".9em" className="min-w-[15px]" />{" "}
+                  <span>{p}</span>
                 </motion.li>
               ))}
             </motion.ul>
             <Link to="process" spy={true} smooth={true}>
-              <div className="button__sec">
-                <button className="btn-accent">More Info</button>
-              </div>
+              {pr.link ? (
+                <div className="button__sec">
+                  <button
+                    onClick={() => openInNewTab(pr.link)}
+                    className="btn-accent"
+                  >
+                    Visit
+                  </button>
+                </div>
+              ) : (
+                <div className="button__sec">
+                  <button className="btn-accent">Coming</button>
+                </div>
+              )}
             </Link>
           </motion.div>
         ))}

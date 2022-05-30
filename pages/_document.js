@@ -15,15 +15,23 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#fff" />
           <meta
             name="description"
-            content="Taka is a platform that helps individuals and businesses to earn as they recycle their waste with our partners."
+            content="We focus on providing technology that helps companies to track,
+            document and achieve their sustainability efforts."
           />
-          <meta property="og:title" content="Taka. Earn as you throw waste." />
+          <meta
+            property="og:title"
+            content="Taka. Documenting Africas Climate Action.."
+          />
           <meta property="og:url" content="https://www.taka.earth" />
           <meta property="og:image" content="assets/logo.js" />
-          <meta name="twitter:title" content="Taka. Earn as you throw waste." />
+          <meta
+            name="twitter:title"
+            content="Taka. Documenting Africas Climate Action.."
+          />
           <meta
             name="twitter:description"
-            content="Taka is a platform that helps individuals and businesses to earn as they recycle their waste with our partners."
+            content="We focus on providing technology that helps companies to track,
+            document and achieve their sustainability efforts."
           />
           <meta name="twitter:image" content="assets/logo.png" />
           <meta name="twitter:card" content="summary_large_image" />

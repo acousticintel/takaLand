@@ -1,7 +1,7 @@
-import Contact from '../components/contact';
-import Hero from '../components/hero';
-import Process from '../components/process';
-import Products from '../components/products';
+const Contact = dynamic(() => import("../components/contact"));
+const Hero = dynamic(() => import("../components/hero"));
+const Process = dynamic(() => import("../components/process"));
+const Products = dynamic(() => import("../components/products"));
 
 export default function Home() {
   return (
