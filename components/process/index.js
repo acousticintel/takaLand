@@ -112,7 +112,7 @@ export default function Process() {
           </motion.div>
           <motion.h6 variants={slideVar}>Sorting.</motion.h6>
           <motion.p variants={slideVar}>
-            We separate the waste as source.
+            We separate the waste at source.
           </motion.p>
         </motion.div>
         <motion.div variants={cardVar} className="process">
