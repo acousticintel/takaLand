@@ -20,13 +20,13 @@ class MyDocument extends Document {
           />
           <meta
             property="og:title"
-            content="Taka. Documenting Africas Climate Action.."
+            content="Taka. Documenting Climate Action in Africa."
           />
           <meta property="og:url" content="https://www.taka.earth" />
           <meta property="og:image" content="assets/logo.js" />
           <meta
             name="twitter:title"
-            content="Taka. Documenting Africas Climate Action.."
+            content="Taka. Documenting Climate Action in Africa."
           />
           <meta
             name="twitter:description"

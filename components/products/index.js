@@ -110,7 +110,7 @@ export default function Products() {
     },
     {
       title: "Home",
-      link: "https://events.taka.earth",
+      link: "https://home.taka.earth",
       points: [
         "Incentivize the public to recycle",
         "Divert their waste from landfills ",
@@ -128,10 +128,9 @@ export default function Products() {
       className="products__sec"
     >
       <motion.h5 variants={riseVar}>Services</motion.h5>
-      <motion.h2 variants={riseVar}>Products</motion.h2>
+      <motion.h2 variants={riseVar}>Functions</motion.h2>
       <motion.h6 variants={riseVar}>
-        Services Tagline Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. In fringilla.
+        Our platform is focused into 3 functions.
       </motion.h6>
       <motion.div variants={cardContVar} className="products">
         {prods.map((pr, i) => (

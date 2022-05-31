@@ -59,7 +59,7 @@ export default function Hero() {
             variants={riseVar}
             className="text-5xl font-bold text-teal-50"
           >
-            Documenting Africas Climate Action.
+            Documenting Climate Action in Africa.
           </motion.h1>
           <motion.p
             variants={riseVar}

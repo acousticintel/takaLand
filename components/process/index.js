@@ -7,6 +7,15 @@ import { useInView } from "react-intersection-observer";
 const IoHappySharp = dynamic(
   async () => (await import("react-icons/io5")).IoHappySharp
 );
+const FaRecycle = dynamic(
+  async () => (await import("react-icons/fa")).FaRecycle
+);
+const FaWeight = dynamic(
+  async () => (await import("react-icons/fa")).FaWeight
+);
+const FaFilter = dynamic(
+  async () => (await import("react-icons/fa")).FaFilter
+);
 
 const contVar = {
   hide: { opacity: 1 },
@@ -96,42 +105,32 @@ export default function Process() {
     >
       <motion.h5 variants={riseVar}>Features</motion.h5>
       <motion.h2 variants={riseVar}>How It Works</motion.h2>
-      <motion.h6 variants={riseVar}>
-        Product Tagline Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        In fringilla.
-      </motion.h6>
       <motion.div variants={cardContVar} className="processes">
         <motion.div variants={cardVar} className="process">
           <motion.div variants={slideVar} className="icon">
-            <IoHappySharp size="2em" />
+            <FaFilter size="2em" />
           </motion.div>
-          <motion.h6 variants={slideVar}>Lorem ipsum dolor sit amet.</motion.h6>
+          <motion.h6 variants={slideVar}>Sorting.</motion.h6>
           <motion.p variants={slideVar}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at
-            cursus nulla, cursus pulvinar lorem. Aliquam ultrices quam velit,
-            vitae fringilla arcu tincidunt ac. Maecenas.
+            We separate the waste as source.
           </motion.p>
         </motion.div>
         <motion.div variants={cardVar} className="process">
           <motion.div variants={slideVar} className="icon">
-            <IoHappySharp size="2em" />
+            <FaWeight size="2em" />
           </motion.div>
-          <motion.h6 variants={slideVar}>Lorem ipsum dolor sit amet adipiscing elit.</motion.h6>
+          <motion.h6 variants={slideVar}>Weighing.</motion.h6>
           <motion.p variants={slideVar}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at
-            cursus nulla, cursus pulvinar lorem. Aliquam ultrices quam velit,
-            vitae fringilla arcu tincidunt ac. Maecenas.
+            We measure and document the various kinds of waste.
           </motion.p>
         </motion.div>
         <motion.div variants={cardVar} className="process">
           <motion.div variants={slideVar} className="icon">
-            <IoHappySharp size="2em" />
+            <FaRecycle size="2em" />
           </motion.div>
-          <motion.h6 variants={slideVar}>Lorem ipsum dolor elit.</motion.h6>
+          <motion.h6 variants={slideVar}>Recycling.</motion.h6>
           <motion.p variants={slideVar}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at
-            cursus nulla, cursus pulvinar lorem. Aliquam ultrices quam velit,
-            vitae fringilla arcu tincidunt ac. Maecenas.
+            We hand over the waste our recycling partners.
           </motion.p>
         </motion.div>
       </motion.div>
