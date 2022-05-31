@@ -41,7 +41,9 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
-          <div id="loader" className="h-screen w-full fixed bg-teal-600 z-50" />
+          <div id="loader" className="h-screen w-full fixed bg-teal-600 z-50 flex justify-center items-center">
+            <h1 className="text-5xl text-white font-bold">TAKA</h1>
+          </div>
           <Main />
           <NextScript />
         </body>

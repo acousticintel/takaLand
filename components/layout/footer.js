@@ -33,7 +33,7 @@ export default function Footer() {
               <FaPhone size="2em" />
             </a>
           </Link>
-          <Link href="mailto:info@avantgardec.com">
+          <Link href="mailto:info@taka.earth">
             <a>
               <MdEmail size="2em" />
             </a>

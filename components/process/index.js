@@ -130,7 +130,7 @@ export default function Process() {
           </motion.div>
           <motion.h6 variants={slideVar}>Recycling.</motion.h6>
           <motion.p variants={slideVar}>
-            We hand over the waste our recycling partners.
+            We hand over the waste to our recycling partners.
           </motion.p>
         </motion.div>
       </motion.div>
