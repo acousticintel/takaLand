@@ -102,6 +102,7 @@ export default function Products() {
     },
     {
       title: "Corporates",
+      link: "https://corporate.taka.earth",
       points: [
         "Measure their sustainability effort",
         "Document their sustainability impact",
