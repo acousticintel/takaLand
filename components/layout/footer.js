@@ -21,7 +21,7 @@ export default function Footer() {
               alt=""
             />
           </div>
-          <h1 className="text-4xl font-bold">TAKA</h1>
+          <h1 className="text-4xl font-bold uppercase">Taka Earth</h1>
         </div>
         <p>Documenting Climate Action in Africa.</p>
       </div>

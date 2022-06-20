@@ -35,7 +35,7 @@ export default function Navbar() {
               />
             </div>
           </div>
-          Taka
+          Taka Earth
         </motion.a>
       </div>
     </div>
